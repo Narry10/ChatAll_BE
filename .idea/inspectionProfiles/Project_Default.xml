@@ -1,0 +1,49 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="51" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="torch" />
+            <item index="1" class="java.lang.String" itemvalue="libcusparse-dev11.7.5.86" />
+            <item index="2" class="java.lang.String" itemvalue="cuda-sanitizer-api11.8.86" />
+            <item index="3" class="java.lang.String" itemvalue="python_abi" />
+            <item index="4" class="java.lang.String" itemvalue="pycparser" />
+            <item index="5" class="java.lang.String" itemvalue="cuda-cudart-dev11.8.89" />
+            <item index="6" class="java.lang.String" itemvalue="cuda-visual-tools11.8.0" />
+            <item index="7" class="java.lang.String" itemvalue="libcusolver-dev11.4.1.48" />
+            <item index="8" class="java.lang.String" itemvalue="huggingface-hub0.16.4" />
+            <item index="9" class="java.lang.String" itemvalue="cuda-nvrtc-dev11.8.89" />
+            <item index="10" class="java.lang.String" itemvalue="icc_rt" />
+            <item index="11" class="java.lang.String" itemvalue="multiprocess" />
+            <item index="12" class="java.lang.String" itemvalue="importlib-metadata6.8.0" />
+            <item index="13" class="java.lang.String" itemvalue="websocket-client0.58.0" />
+            <item index="14" class="java.lang.String" itemvalue="urllib3" />
+            <item index="15" class="java.lang.String" itemvalue="vs2015_runtime" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="VietnameseTextNormalizer" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
